@@ -5,7 +5,9 @@ And acording to the rules you win, lose or you're tie.
 After the result of the game it asks the user if wanna play again.
 
 ## RULES
+
 The game "rock paper scissors" is a game in wich two oponents choose between the three options and the winner works according to a round hierarqui.
+
 In the next representation '>' means 'wins to'
 ... Rock > Scissors > Paper > Rock ...
 closing the loop, and is a tie if both choose the same.
@@ -48,3 +50,35 @@ if npc == choice-1 or npc == choice+2: print('Ganaste!')
 if npc == choice: print('Empataron!')
 ```
 - Finally the user choose to play again or not
+
+
+
+## INSTALLATION
+
+
+
+
+## EXAMPLES
+
+The programs runs in command line interface (CLI).
+
+**1. User give "0" for rock option
+**
+
+```
+VAMOS A JUGAR PIEDRA PAPEL O TIJERAS!
+Para mas inforacion de las reglas del juego se sugiere leer el archivo `README.md` en la documentación del programa
+En este juego indicas tu movimiento con números de la siguiente manera
+
+	piedra = 0	papel = 1	tijeras = 2
+
+ELIGE... 
+0
+
+Elegiste piedra y el npc eligio piedra
+Empataron!
+
+```
+
+
+
